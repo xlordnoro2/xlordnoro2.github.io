@@ -17,14 +17,19 @@
       background-color: black;   /* Fallback for empty space */
       font-family: Arial, sans-serif;
       color: white;
-      text-align: left;
+      text-align: center; /* Center headings */
+    }
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* space between images */
+      flex-wrap: wrap; /* images wrap on smaller screens */
+      margin-top: 20px;
     }
     img {
-      margin: 10px;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.5);
       max-width: 300px;
-      text-align: center;
     }
   </style>
 </head>
@@ -32,16 +37,18 @@
   <h1>xlordnoro2.github.io</h1>
   <p>imgur bs testing for a colleague</p>
 
-  <a href="#">
-    <img src="https://raw.githubusercontent.com/xlordnoro/xlordnoro.github.io/master/playcool_images/button_images/Hi10_Kanojo_S2_button_720p.jpg" alt="Kanojo S2" title="Kanojo S2">
-  </a>
+  <div class="image-container">
+    <a href="#">
+      <img src="https://raw.githubusercontent.com/xlordnoro/xlordnoro.github.io/master/playcool_images/button_images/Hi10_Kanojo_S2_button_720p.jpg" alt="Kanojo S2" title="Kanojo S2">
+    </a>
 
-  <a href="#">
-    <img src="https://raw.githubusercontent.com/xlordnoro/xlordnoro.github.io/master/playcool_images/button_images/Hi10_Magical_Nanoha_S3_BD_1080p.png" alt="Magical Nanoha S3" title="Magical Nanoha S3">
-  </a>
+    <a href="#">
+      <img src="https://raw.githubusercontent.com/xlordnoro/xlordnoro.github.io/master/playcool_images/button_images/Hi10_Magical_Nanoha_S3_BD_1080p.png" alt="Magical Nanoha S3" title="Magical Nanoha S3">
+    </a>
 
-  <a href="#">
-    <img src="https://raw.githubusercontent.com/xlordnoro/xlordnoro.github.io/master/playcool_images/button_images/Hi10_strike_blood_S1_BD_1080p.jpg" alt="Strike the Blood S1" title="Strike the Blood S1">
-  </a>
+    <a href="#">
+      <img src="https://raw.githubusercontent.com/xlordnoro/xlordnoro.github.io/master/playcool_images/button_images/Hi10_strike_blood_S1_BD_1080p.jpg" alt="Strike the Blood S1" title="Strike the Blood S1">
+    </a>
+  </div>
 </body>
 </html>
