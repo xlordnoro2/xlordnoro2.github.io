@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <title>xlordnoro2.github.io</title>
   <style>
-    body {
+    html, body {
       margin: 0;
+      height: 100%;
+    }
+    body {
       background-image: url('https://raw.githubusercontent.com/xlordnoro/xlordnoro.github.io/master/playcool_images/button_images/Hi10_strike_blood_S1_BD_1080p.jpg');
-      background-size: cover;
+      background-size: contain;   /* Show full image */
+      background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
+      background-color: black;   /* Fallback for empty space */
       font-family: Arial, sans-serif;
-      color: white;
+      color: black;
       text-align: center;
     }
     img {
